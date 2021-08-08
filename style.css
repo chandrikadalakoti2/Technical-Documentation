@@ -1,0 +1,34 @@
+*{
+  color:rgb(75, 73, 73);
+}
+
+nav{
+  width:25%;
+  display:inline-block;
+  float:left;
+  height:auto;
+  
+}
+
+nav>ul>li{list-style-type:none;}
+
+nav>a{text-decoration:none;}
+nav{padding:20px 0;margin:15px;border-right: 2px solid gray;position:fixed;top:0;}
+
+#main-doc section{
+  display:inline-block;
+
+  margin-left: 35%;
+}
+
+#main-doc header{margin:10px;}
+section header{font-size: 30px;color:black;}
+
+@media screen and (min-width:992px)
+{
+  nav>a{
+    font-size:18px;
+  }
+
+  nav>header{text-align:center;font-size:35px;color:black;}
+}
